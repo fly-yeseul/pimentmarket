@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>piment market</title>
+    <link rel="stylesheet" as="style" crossorigin
+          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css"/>
+    <script src="https://kit.fontawesome.com/e099593f60.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" th:href="@{/resources/stylesheets/index.css}">
+</head>
+<body>
+<div class="title">
+    <span class="si">서울특별시</span>
+    <span class="gu"> 중구</span>
+    <span class="dong"> 무슨동</span>
+    <span> 중고거래 인기매물</span>
+</div>
+
+<div class="selects">
+    <select class="si">
+        <option value="지역을 선택하세요.">지역을 선택하세요</option>
+        <option value="서울특별시">서울특별시</option>
+        <option value="대구광역시">대구광역시</option>
+    </select>
+    <select class="gu">
+        <option value="동네를 선택하세요.">동네를 선택하세요</option>
+        <option value="무슨구">무슨구</option>
+        <option value="어쩔구">어쩔구</option>
+        <option value="저쩔구">저쩔구</option>
+    </select>
+    <select class="dong">
+        <option value="동을 선택하세요.">동을 선택하세요</option>
+        <option value="무슨동">무슨동</option>
+        <option value="어쩔동">어쩔동</option>
+        <option value="저쩔동">저쩔동</option>
+    </select>
+
+</div>
+
+<section class="products-wrap">
+    <div class="product-card">
+        <a th:href="@{#}">
+            <img th:src="@{/resources/images/myuniverse.jpeg}">
+            <div class="product-title">포트메리온 그릇 필요하신분</div>
+            <div class="product-price">
+                <span>5,000원</span>
+            </div>
+            <div class="area-info">
+                <span class="product-si">서울</span>
+                <span class="product-gu">용산구</span>
+                <span class="product-dong">효창동</span>
+            </div>
+            <div class="pop">
+                <span>관심</span>
+                <span class="inter-count">6</span>
+                <span> ・ </span>
+                <span>채팅</span>
+                <span class="chat-count">33</span>
+            </div>
+        </a>
+    </div>
+    <div class="product-card">
+        <a th:href="@{#}">
+            <img th:src="@{/resources/images/myuniverse.jpeg}">
+            <div class="product-title">포트메리온 그릇 필요하신분</div>
+            <div class="product-price">
+                <span>5,000원</span>
+            </div>
+            <div class="area-info">
+                <span class="product-si">서울</span>
+                <span class="product-gu">용산구</span>
+                <span class="product-dong">효창동</span>
+            </div>
+            <div class="pop">
+                <span>관심</span>
+                <span class="inter-count">6</span>
+                <span> ・ </span>
+                <span>채팅</span>
+                <span class="chat-count">33</span>
+            </div>
+        </a>
+    </div>
+    <div class="product-card">
+        <a th:href="@{#}">
+            <img th:src="@{/resources/images/myuniverse.jpeg}">
+            <div class="product-title">포트메리온 그릇 필요하신분</div>
+            <div class="product-price">
+                <span>5,000원</span>
+            </div>
+            <div class="area-info">
+                <span class="product-si">서울</span>
+                <span class="product-gu">용산구</span>
+                <span class="product-dong">효창동</span>
+            </div>
+            <div class="pop">
+                <span>관심</span>
+                <span class="inter-count">6</span>
+                <span> ・ </span>
+                <span>채팅</span>
+                <span class="chat-count">33</span>
+            </div>
+        </a>
+    </div>
+    <div class="product-card">
+        <a th:href="@{#}">
+            <img th:src="@{/resources/images/myuniverse.jpeg}">
+            <div class="product-title">포트메리온 그릇 필요하신분</div>
+            <div class="product-price">
+                <span>5,000원</span>
+            </div>
+            <div class="area-info">
+                <span class="product-si">서울</span>
+                <span class="product-gu">용산구</span>
+                <span class="product-dong">효창동</span>
+            </div>
+            <div class="pop">
+                <span>관심</span>
+                <span class="inter-count">6</span>
+                <span> ・ </span>
+                <span>채팅</span>
+                <span class="chat-count">33</span>
+            </div>
+        </a>
+    </div>
+    <div class="product-card">
+        <a th:href="@{#}">
+            <img th:src="@{/resources/images/myuniverse.jpeg}">
+            <div class="product-title">포트메리온 그릇 필요하신분</div>
+            <div class="product-price">
+                <span>5,000원</span>
+            </div>
+            <div class="area-info">
+                <span class="product-si">서울</span>
+                <span class="product-gu">용산구</span>
+                <span class="product-dong">효창동</span>
+            </div>
+            <div class="pop">
+                <span>관심</span>
+                <span class="inter-count">6</span>
+                <span> ・ </span>
+                <span>채팅</span>
+                <span class="chat-count">33</span>
+            </div>
+        </a>
+    </div>
+    <div class="product-card">
+        <a th:href="@{#}">
+            <img th:src="@{/resources/images/myuniverse.jpeg}">
+            <div class="product-title">포트메리온 그릇 필요하신분</div>
+            <div class="product-price">
+                <span>5,000원</span>
+            </div>
+            <div class="area-info">
+                <span class="product-si">서울</span>
+                <span class="product-gu">용산구</span>
+                <span class="product-dong">효창동</span>
+            </div>
+            <div class="pop">
+                <span>관심</span>
+                <span class="inter-count">6</span>
+                <span> ・ </span>
+                <span>채팅</span>
+                <span class="chat-count">33</span>
+            </div>
+        </a>
+    </div>
+
+</section>
+
+
+</body>
+</html>

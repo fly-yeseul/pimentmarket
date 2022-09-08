@@ -1,0 +1,35 @@
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<header class="header" th:fragment="content">
+    <div class="top-bar">
+        <a class="logo-container" th:href="@{/}">
+            <img class="logo" th:src="@{/resources/images/Pimento.png}">
+            <span class="text">피망마켓</span>
+        </a>
+        <li class="item">
+            <a class="link" href="#">중고거래</a>
+        </li>
+
+        <div class="spring"></div>
+
+        <div class="search">
+            <form class="search-form">
+                <label class="keyword-input-container">
+                    <span hidden>검색어</span>
+                    <input class="keyword-input" maxlength="50" name="keyword" placeholder="물품이나 동네를 검색해보세요" type="text">
+                </label>
+            </form>
+        </div>
+
+        <div class="chat">
+            <form class="chat-form">
+                <label class="chat-button-container">
+                    <span hidden>채팅하기</span>
+                    <button type="button" class="button">
+                        <span class="text">채팅하기</span>
+                    </button>
+                </label>
+            </form>
+        </div>
+    </div>
+</header>
+</html>

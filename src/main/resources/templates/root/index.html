@@ -9,6 +9,7 @@
     <link rel="stylesheet" th:href="@{/resources/stylesheets/index.css}">
 </head>
 <body>
+<th:block th:replace="~{fragments/header.html :: content}"></th:block>
 <div class="title">
     <span class="si">서울특별시</span>
     <span class="gu"> 중구</span>
@@ -16,7 +17,6 @@
     <span> 중고거래 인기매물</span>
 </div>
 
-<div>실봄</div>
 <div class="selects">
     <select class="si">
         <option value="지역을 선택하세요.">지역을 선택하세요</option>

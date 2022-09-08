@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+body > .header {
+    width: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+body > .header > .top-bar {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100vw;
+    margin-top: 0.05rem;
+}
+
+body > .header > .top-bar > .logo-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+body > .header > .top-bar > .spring {
+    width: 25rem;
+    height: 2.5rem;
+}
+
+body > .header > .top-bar > .logo-container > .logo {
+    width: 2.95rem;
+    height: 2.95rem;
+
+    user-select: none;
+}
+
+body > .header > .top-bar > .logo-container > .text {
+
+    display: block;
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(0, 128, 0);
+    justify-content: center;
+    user-select: none;
+    text-decoration: none;
+    padding-left: 0.05rem;
+}
+
+body > .header > .top-bar > .item {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+
+}
+
+body > .header > .top-bar > .item > .link {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 128, 0);
+    text-decoration: none;
+}
+
+body > .header > .top-bar > .search {
+    width: 15rem;
+    height: 2.5rem;
+    display: flex;
+
+
+
+}
+
+body > .header > .top-bar > .search > .search-form {
+    width: auto;
+    height: 2rem;
+
+    display: block;
+}
+
+body > .header > .top-bar > .search > .search-form > .keyword-input-container {
+    background-color: rgb(242, 243, 246);
+    font-size: 2.0rem;
+    border: rgb(255,255,255) solid 0.0625rem;
+    border-radius: 0.25rem;
+    text-align: center;
+
+}
+
+body > .header > .top-bar > .search > .search-form > .keyword-input-container > .keyword-input {
+    color: rgb(148, 139, 173);
+    width: 16rem;
+    height: 40px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 1rem;
+    text-align: left;
+
+    margin-top: 0;
+
+    padding: 9px 12px;
+
+
+    justify-content: center;
+}
+
+body > .header > .top-bar > .chat {
+    display: flex;
+
+    margin-left: 1.5rem;
+    padding: 0;
+
+}
+
+body > .header > .top-bar > .chat > .chat-form {
+
+}
+
+body > .header > .top-bar > .chat > .chat-form > .chat-button-container {
+}
+
+body > .header > .top-bar > .chat > .chat-form > .chat-button-container > .button {
+    height: 2.5rem;
+    background-color: rgb(255,255,255);
+    border: rgb(209,211,216) solid 0.0625rem;
+    border-radius: 0.25rem;
+}
+
+body > .header > .top-bar > .chat > .chat-form > .chat-button-container > .button > .text {
+    font-size: 1rem;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+
+}

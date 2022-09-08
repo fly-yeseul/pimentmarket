@@ -12,6 +12,7 @@ public class TestController {
     public ModelAndView getDetail(
             ModelAndView modelAndView
     ) {
+        System.out.println("aaa");
         modelAndView.setViewName("article/detail");
         return modelAndView;
     }

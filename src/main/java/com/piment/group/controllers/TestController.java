@@ -12,8 +12,16 @@ public class TestController {
     public ModelAndView getDetail(
             ModelAndView modelAndView
     ) {
-        System.out.println("aaa");
         modelAndView.setViewName("article/detail");
         return modelAndView;
     }
+
+    @RequestMapping(value = "my", method = RequestMethod.GET)
+    public ModelAndView getMy(
+            ModelAndView modelAndView
+    ) {
+        modelAndView.setViewName("my/my");
+        return modelAndView;
+    }
+
 }
